@@ -135,7 +135,7 @@ def _install_platformio_core(shutdown_piohome=True, develop=False, ignore_python
     # pylint:disable=line-too-long
     click.secho(
         """
-If you need an access to `platformio.exe` from other applications, please install Shell Commands
+If you need an access to the PlatformIO executable from other applications, please install Shell Commands
 (add PlatformIO Core binary directory `%s` to the system environment PATH variable):
 
 See https://docs.platformio.org/page/installation.html#install-shell-commands
